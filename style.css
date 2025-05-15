@@ -1,96 +1,172 @@
-*{
-
-padding: 0;
-margin: 0;
-
+* {
+    padding: 0;
+    margin: 0;
 }
 
-body{
-    
+
+body {
+ 
 }
 
-h1{
 
+h1 {
     text-align: center;
-    background-color: blueviolet;
+    background-color: rgb(2, 2, 2);
     color: aliceblue;
     padding: 30px;
+    position:relative
+   
 }
 
-p{
-    font-size: 23px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h2, h3 {
     margin: 30px;
 }
+h2{
+    font-size: 18px;
+}
 
-ul{
+
+
+
+hr {
+    margin: 0;
+    width: auto;
+}
+
+
+p {
+    font-size: 15px;
+    margin: 40px;
+    text-decoration: none;
+   
+}
+
+
+
+
+ul {
     margin-left: 40px;
     list-style-type: none;
-
+ 
+   
 }
-li{
- margin-top: 10px;
- font-size: 23px;
 
+
+li {
+    margin-top: 10px;
+    font-size: 23px;
 }
-a{
+
+
+a {
     text-decoration: none;
-    color: blueviolet;
-    top:20px;
-    left:50px;
-    margin:0px;
-    padding:0px;
-    font: bold 12px/24px arial, helvetica, sans-aerif;	
-padding:0px;
-text-decoration: none;
-text-align:center;	
-color:#ccc;
-background: purple url('botao_link.gif')
- no-repeat center center;	
-width:120px;  
-height:24px;	
-display:block;
-}
-
-
-a:hover{
-    color: black;
-
+    color: #ccc;
+    font: bold 12px/24px arial, helvetica, sans-serif;
+    text-align: center;
+    background: rgb(2, 2, 2) url('botao_link.gif') no-repeat center center;
+    width: 120px;
+    height: 24px;
+    display: block;
+    margin: 20px;
+    padding: auto;
+   
 }
 
 
 
-footer{
+
+
+
+footer {
     margin-top: 60px;
     padding: 50px;
-    background-color: blueviolet;
+
+
     color: aliceblue;
-    background-image:url("/imagens/images\ \(1\).jfif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-h2 , h3{
-margin: 30px;
-}
 
-hr{
-    margin: 0px;
-    width: auto;
-}
 
 img {
-    
     margin: 20px auto;
     display: block;
-    border: 10px solid  ;
+    border: 10px solid #000;
 }
 
-.h2_paris{
+
+.h2_paris {
     display: flex;
     justify-content: center;
+   background-color: #8A2BE2;
+   border: 2px solid black;
+ color: white;  
+
+
 }
 
-p{
-font-size:  14px;
+
+.Descriçao{
+text-align: center;
+
+
+color: white;
+font: bold 12px/30px arial, helvetica, sans-serif;
+text-align: center;
+background: #000000 url('botao_link.gif') no-repeat center center;
+display: block;
 }
-  
+.imagemFundo{
+       
+    top: 0;              
+    left: 0;            
+    width: 100vw;        
+    height: 100vh;        
+    object-fit: cover;    
+    object-position: center;
+    z-index: -1;  
+  filter: brightness(35%);
+}
+.imagemFundo{
+    position:fixed;
+    top: 0;
+   
+}
+.ImagemFundoParis{
+    position: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+    filter: brightness(35%);
+}
+.ImagemFundoParis{
+    position: fixed;
+    top: 0  ;
+}
+
+
+
+
+
+
