@@ -22,27 +22,30 @@ h1 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 h2, h3 {
     margin: 30px;
+    text-align: center;
+    color: white;
 }
 h2{
     font-size: 18px;
+
+
 }
 
-
+.textoParis{
+    text-align: center;
+}
+.textoParis::after{
+    content: '';
+    display: flex;
+    width: 100px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 15px;
+  
+}
 
 
 hr {
@@ -116,12 +119,13 @@ img {
 .h2_paris {
     display: flex;
     justify-content: center;
-   background-color: #8A2BE2;
-   border: 2px solid black;
+  
+font-size: 18px;
  color: white;  
 
 
 }
+
 
 
 .Descriçao{
@@ -150,23 +154,14 @@ display: block;
     top: 0;
    
 }
-.ImagemFundoParis{
-    position: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    object-position: center;
-    z-index: -1;
-    filter: brightness(35%);
-}
-.ImagemFundoParis{
+
+.botao1{
     position: fixed;
-    top: 0  ;
+    bottom: 20px;
+    right: 20px;
 }
-
-
-
-
-
-
+.A{
+    position: fixed;
+    bottom: 20px;
+    rigth: 20px;
+}
